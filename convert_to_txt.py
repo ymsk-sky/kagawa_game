@@ -1,6 +1,5 @@
-import cv2
 import glob
-import pyocr
+import pdf2image
 
 def main():
     doc_path = './docs/'
