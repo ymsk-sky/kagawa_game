@@ -28,3 +28,15 @@ pdfファイルを画像(jpg, png)へ変換する。
 ```
 $ pip install pdf2image
 ```
+
+## 使い方
+
+`docs`ディレクトリにDLした`pdf`ファイル群を配置する。
+
+`pdf`を`png`画像に変換してから、OCRによってテキストへ起こす。
+
+```
+$ python convert_to_txt.py
+```
+
+画像は`imgs`配下に保存される。
