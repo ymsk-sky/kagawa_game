@@ -5,7 +5,6 @@ import pdf2image
 def main():
     doc_path = './docs/'
     document_files = read_file_list(doc_path)
-    document_files = [document_files[0]]#
     convert_to_image(document_files)
 
 
